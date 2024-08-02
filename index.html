@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Sacramento&family=Allura&family=Bradley+Hand&family=Dancing+Script&family=Do+Hyeon&family=Kaushan+Script&family=Parisienne&family=Satisfy&family=Shadows+Into+Light&family=Signed+Sealed&family=Synonym&family=Vibur&family=Windsong&display=swap">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stylish Signature Maker</h1>
+        <input type="text" id="name-input" placeholder="Enter your name">
+        <select id="font-select">
+            <option value="'Great Vibes', cursive">Great Vibes</option>
+            <option value="'Pacifico', cursive">Pacifico</option>
+            <option value="'Sacramento', cursive">Sacramento</option>
+            <option value="'Allura', cursive">Allura</option>
+            <option value="'Bradley Hand', cursive">Bradley Hand</option>
+            <option value="'Dancing Script', cursive">Dancing Script</option>
+            <option value="'Do Hyeon', sans-serif">Do Hyeon</option>
+            <option value="'Kaushan Script', cursive">Kaushan Script</option>
+            <option value="'Parisienne', cursive">Parisienne</option>
+            <option value="'Satisfy', cursive">Satisfy</option>
+            <option value="'Shadows Into Light', cursive">Shadows Into Light</option>
+            <option value="'Signed Sealed', cursive">Signed Sealed</option>
+            <option value="'Synonym', cursive">Synonym</option>
+            <option value="'Vibur', cursive">Vibur</option>
+            <option value="'Windsong', cursive">Windsong</option>
+        </select>
+        <input type="color" id="color-picker" value="#000000">
+        <div class="buttons">
+            <button id="generate">Generate Signature</button>
+            <button id="download" style="display:none;">Download</button>
+        </div>
+        <div id="output"></div>
+    </div>
+
+    <!-- Js file integrate -->
+    <script src="script.js"></script>
+</body>
+
+</html>
